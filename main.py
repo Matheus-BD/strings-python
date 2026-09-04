@@ -1,4 +1,4 @@
-# Resolução 
+# Resolução em forma de desafio
 
 valor = str(1250.5)
 if valor[-2] == '.':
