@@ -4,8 +4,13 @@ if valor[-2] == '.':
 
 print(f"R$ {valor.replace('.', ',')}")
 
+valor = str(0.857)
 
+if valor[0] == "0":
+    final =  "%"
+    valor = (valor[2:] + final)
+    metade = valor[0:2]
 
-valor = 0.857
+    resotado = metade + "," + valor[2:]
 
-print(f"{valor:.2%}".replace(".", ","))
+print(resotado)
