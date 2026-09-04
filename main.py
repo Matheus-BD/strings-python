@@ -1,3 +1,5 @@
+# Resolução 
+
 valor = str(1250.5)
 if valor[-2] == '.':
     valor += "0"
@@ -14,3 +16,13 @@ if valor[0] == "0":
     resotado = metade + "," + valor[2:]
 
 print(resotado)
+
+# Resolução proposta
+
+valor = (1250.5)
+
+print(f'R$ {valor:.2f}'.replace('.', ',') )
+
+valor = 0.857 
+
+print(f'{valor:.2%}'.replace('.', ','))
